@@ -1,6 +1,6 @@
 """Models for the ``people`` app."""
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from cms.models.pluginmodel import CMSPlugin
 from filer.fields.file import FilerFileField
